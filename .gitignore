@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# PyCharm project files
+.idea/
+
+# PDF parsing outputs
+output_images/
+*.pdf
+*.png
+
+# Logs / temp files
+*.log
+*.tmp
+*.bak
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# Test outputs
+.coverage
+htmlcov/
+.pytest_cache/
+
+# VSCode (if used)
+.vscode/
+
+# Ignore sample outputs
+samples/*.png
+samples/*.pdf
